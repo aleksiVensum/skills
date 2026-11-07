@@ -1,6 +1,6 @@
 # Maintaining these skills
 
-This repository is the authoritative source for the five skills under `skills/`.
+This repository is the authoritative source for the six skills under `skills/`.
 Each directory contains its own `SKILL.md` with a matching frontmatter name and
 a description that tells a harness when to load it. Keep each usable alone:
 explain optional tools rather than assuming another private skill is installed.
@@ -15,4 +15,10 @@ credentials, internal scheduling metadata, machine inventories, or personal
 operational context. Use fabricated examples without real participant details.
 
 Use focused commits and review the complete staged file list before a push.
-There is no build, package manager, or generated scaffold to maintain.
+There is no build, package manager, or generated scaffold to maintain. Pi loads
+the repository as a package through its conventional `skills/` directory, so
+do not add a manifest unless resources move elsewhere.
+
+`skills/prototype` is adapted from Emil Kowalski's MIT-licensed collection. Keep
+its own `LICENSE` and the Origin section in its `SKILL.md`; record substantive
+new departures from the original there.
