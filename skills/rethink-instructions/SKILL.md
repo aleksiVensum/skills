@@ -73,6 +73,26 @@ non-obvious reason is worth stating with that reason. A few things are dangerous
 enough to state as plain limits. These should be rare, and each should say what
 would be lost.
 
+## Reasons that come back as output
+
+When the instruction governs a text the agent will write, such as a report, a
+summary, or a message to a customer, the reasons you add are read by the same
+agent that writes that text, and a reason phrased like a finding can come back
+as one. An instruction for a status report said that the steering group wants
+to know whether the migration is on track. The next draft opened with "The
+migration is on track", although its own dates showed a slip. The agent had
+been handed a well-formed sentence about the subject and used it.
+
+Putting the reason as a question did not prevent this, because dropping
+"whether" leaves the claim intact. What helps is to write the reason about the
+reader and what they do with the text, in words that could not stand in the
+text itself: "the steering group decides from this section whether to release
+the next phase, so it needs the current date against the planned one." That
+tells the agent what to find out and leaves it nothing to repeat.
+
+A quick test is to read each reason as if it were a sentence in the output.
+If it would pass there once a word or two is dropped, reword it.
+
 ## How instructions should treat autonomy
 
 Procedural instructions usually handle autonomy with permission rules: confirm
