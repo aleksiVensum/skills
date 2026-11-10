@@ -104,6 +104,9 @@ transcription is reliable enough to bear the weight.
 
 ## Finishing
 
+A raw transcript can contain credentials spoken aloud. Redact them before a
+shared repository receives it, and say so in the account.
+
 Before removing the source, make sure that the raw artifact exists at its
 final path and is byte-identical to the supplied file, that the account can be
 read back from its final path, and that both concern this meeting and replaced
